@@ -15,7 +15,7 @@ Write-Host "Current script directory is $ScriptDir"
 # decomanter pour forcer la variable #$ScriptDir
 #$ScriptDir="\\partage.local\deploiment\agent_glpi\"
 $cacertfile="agent.srv.glpi.pem"
-$serveur="https://gestao.exactsolution.com.br/front/inventory.php"
+$serveur="XXXXXXXXXXXXXXXXX"
 ## 
 if ( $([System.Environment]::Is64BitOperatingSystem) -eq $True ){
 $MSI = "https://github.com/glpi-project/glpi-agent/releases/download/1.6.1/GLPI-Agent-1.6.1-x64.msi" 
